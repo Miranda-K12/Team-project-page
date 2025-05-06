@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --color-primary: #00b05b;
+  --color-primary-dark: #036e3b;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --text-color: #666;
+  --color-grey-dark: #575757;
+  --color-grey-text: #666666;
+  --grey-background: #f8f9fa;
+  --color-border: #d7d7d7;
+  --color-background-card: #f4fafd;
+  --gradient-header: linear-gradient(#006c41, #00bc70);
+  --font-family-base: "Roboto", Arial, Helvetica, sans-serif;
+  --font-size-base: 1rem;
+  --font-size-header: 1.75rem;
+  --font-size-paragraph: 0.938rem;
+  --line-height-base: 1.3rem;
+  --padding-subheader: 0.5rem;
+  --padding-button-sm: 0.65rem;
+  --padding-button-lg: 1.9rem;
+  --radius-xs: 0.4375rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.25rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  font-family: var(--font-family-base);
+}
+
+.main-wrapper {
+  width: 100%;
+}
+.title__highlight {
+  background-image: var(--gradient-header);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-title {
+  font-size: var(--font-size-header);
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 24px;
+  text-align: center;
+  width: 80%;
+}
+.insurance-type__card {
+  padding: 73px 33px 33px 73px;
+  position: relative;
+}
+.green-button {
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  font-size: 15px;
+  color: var(--color-white);
+  padding: 10.4px 30.4px;
+  font-weight: 600;
+  line-height: var(--line-height-base);
+  gap: 12px;
+  border: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-out;
+}
+.green-button:hover {
+  filter: brightness(1.1);
+}
+.basket-icon {
+  width: 31px;
+  height: 18px;
+  color: var(--color-white);
+}

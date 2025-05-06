@@ -1,0 +1,211 @@
+/*header*/
+
+.header {
+  height: 4rem;
+  width: 100%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+}
+
+.header__title {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  padding: 0.1rem 0.2rem;
+  border-radius: 7px;
+  margin-right: 1rem;
+  text-transform: uppercase;
+}
+.header__text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.header__text span {
+  font-weight: 600;
+}
+/*Covid Insurance */
+.insurance-covid {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/section-background.svg);
+  height: 460px;
+  margin-top: 10rem;
+  padding-top: 12rem;
+}
+.insurance-covid__text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 36px;
+}
+.insurance-covid__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  line-height: 42px;
+  text-align: center;
+}
+.insurance-covid__description {
+  line-height: var(--line-height-base);
+  color: var(--text-color);
+  font-size: var(--font-size-paragraph);
+  max-width: 648px;
+  width: 90%;
+}
+/*insurance-type*/
+.insurance-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+  margin-top: 85px;
+}
+
+.insurance-type__description {
+  font-size: var(--font-size-paragraph);
+  margin-bottom: 48px;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.insurance-type__grid {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  max-width: 1296px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.insurance-type__card:first-child img {
+  width: 100%;
+}
+
+.multi-insurance-card {
+  background-color: var(--color-background-card);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid var(--color-border);
+}
+.single-insurace-card {
+  border: 1px solid var(--color-border);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.insurance-type__card-title {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.insurance-type__card-text {
+  font-size: 15px;
+  color: var(--color-grey-text);
+  line-height: var(--line-height-base);
+}
+.button-purchase {
+  bottom: 33px;
+  position: absolute;
+}
+.single-title {
+  margin-bottom: 16px;
+}
+
+/*Footer*/
+.footer {
+  padding: 40px;
+  background-color: var(--color-grey-dark);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+}
+
+.footer__logo {
+  max-width: 150px;
+  width: 80%;
+  height: 34px;
+}
+@media (max-width: 768px) {
+  .header {
+    font-size: 14px;
+  }
+
+  .insurance-type__grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .insurance-type__card {
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .insurance-covid__title {
+    margin: 0 auto;
+  }
+  .button-purchase {
+    position: static;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 36px;
+  }
+  .insurance-covid__title {
+    max-width: 100%;
+  }
+  .insurance-covid__description {
+    width: 60%;
+  }
+}
+@media (max-width: 620px) {
+  .image-card {
+    order: 3;
+  }
+  .single-insurance-card {
+    order: 1;
+  }
+  .multi-insurance-card {
+    order: 2;
+  }
+}
+@media (max-width: 520px) {
+  .header {
+    font-size: 10.4px;
+  }
+  .header__title {
+    margin-right: 0.5rem;
+  }
+
+  .footer__logo {
+    max-width: 150px;
+    width: 80%;
+    height: 34px;
+  }
+}
+@media (max-width: 380px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}

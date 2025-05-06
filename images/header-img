@@ -1,0 +1,24 @@
+<svg id="Group_34" data-name="Group 34" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="81" viewBox="0 0 1920 81">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="1920" height="81" fill="#008751"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#009459"/>
+      <stop offset="1" stop-color="#00d47f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1" y1="0.552" x2="-0.575" y2="0.534" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" y2="1.682" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="0.759" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#009459"/>
+      <stop offset="1" stop-color="#00eb8d"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_1" data-name="Path 1" d="M0,0H1920V81H0Z" fill="#028752"/>
+  <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="54.5" cy="54.5" r="54.5" transform="translate(393 35)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="234.5" cy="234" rx="234.5" ry="234" transform="translate(1246 -413)" fill="url(#linear-gradient-2)"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="54.5" cy="55" rx="54.5" ry="55" transform="translate(298 -75)" fill="url(#linear-gradient-3)"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="529" cy="529" r="529" transform="translate(431 -70)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>
