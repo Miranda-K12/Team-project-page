@@ -3,16 +3,21 @@
 :root {
   --color-primary: #00b05b;
   --color-primary-dark: #036e3b;
+  --color-heading-background: rgb(0 176 91 / 20%);
   --color-white: #ffffff;
   --color-black: #000000;
-  --text-color: #666;
   --color-grey-dark: #575757;
   --color-grey-text: #666666;
-  --grey-background: #f8f9fa;
   --color-border: #d7d7d7;
   --color-background-card: #f4fafd;
+  --color-heading: #212529;
+  --color-hover-accordion: #f5f5f5;
+  --color-accordion-background: #d7f0df;
+  --color-hover-accordion-header: #b7e3c5;
+  --color-active-accordion-header: #086e3c;
   --gradient-header: linear-gradient(#006c41, #00bc70);
   --font-family-base: "Roboto", Arial, Helvetica, sans-serif;
+  --font-size-subheader: 0.75rem;
   --font-size-base: 1rem;
   --font-size-header: 1.75rem;
   --font-size-paragraph: 0.938rem;
@@ -79,4 +84,10 @@ body {
   width: 31px;
   height: 18px;
   color: var(--color-white);
+}
+
+.section {
+  max-width: 1296px;
+  width: 96%;
+  margin: 0 auto;
 }

@@ -124,6 +124,115 @@
   margin-bottom: 16px;
 }
 
+/* Risks Section */
+.risks_section {
+  text-align: center;
+  padding: 12rem 0 12rem 0;
+}
+
+.risks_section h3 {
+  font-size: var(--font-size-subheader);
+  color: var(--color-primary-dark);
+  background-color: var(--color-heading-background);
+  padding: var(--padding-subheader) var(--radius-md);
+  border-radius: var(--radius-xs);
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.risks_section > h2 {
+  font-size: var(--font-size-header);
+  color: var(--color-heading);
+  font-weight: bold;
+  word-spacing: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.risks_section h2 span {
+  background: -webkit-linear-gradient(#006c41, #00bc70);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.risks_accordion_wrapper .accordion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.risks_accordion_wrapper .accordion .accordion_each_column {
+  width: 50%;
+}
+
+.risks_accordion_wrapper .accordion-item {
+  width: 100%;
+}
+
+.accordion-header button {
+  font-size: var(--font-size-base);
+  color: var(--color-grey-text);
+  font-weight: bold;
+  margin-right: 1rem;
+  text-align: left;
+  line-height: 1.3;
+  transition: 0.3s ease;
+}
+
+.accordion-header button:hover {
+  background-color: var(--color-hover-accordion);
+}
+
+.accordion-collapse.show {
+  background-color: var(--color-accordion-background);
+}
+
+.accordion-collapse.show + .accordion-button,
+.accordion-collapse.show {
+  background-color: var(--color-accordion-background);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--color-accordion-background);
+  color: var(--color-active-accordion-header);
+  padding-top: 2.5rem;
+}
+
+.accordion-button.collapsed {
+  padding-top: 3rem;
+}
+
+.accordion-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.accordion .accordion-item .accordion-button:not(.collapsed):hover {
+  background-color: var(--color-hover-accordion-header) !important;
+}
+
+.accordion-body {
+  color: var(--color-grey-text);
+  text-align: left;
+  padding-bottom: 2rem;
+  font-size: 0.938rem;
+  line-height: 1.3;
+  transition: 0.01s !important;
+}
+
+/************** Responsive - Risks Section ************/
+@media (max-width: 768px) {
+  .risks_section {
+    padding: 6rem 0 8rem 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .risks_section {
+    padding: 6rem 0 8rem 0;
+  }
+}
+
 /*Footer*/
 .footer {
   padding: 40px;
