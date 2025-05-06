@@ -130,7 +130,7 @@
   padding: 12rem 0 12rem 0;
 }
 
-.risks_section h3 {
+.sub-header {
   font-size: var(--font-size-subheader);
   color: var(--color-primary-dark);
   background-color: var(--color-heading-background);
@@ -138,6 +138,8 @@
   border-radius: var(--radius-xs);
   display: inline-block;
   margin-bottom: 1rem;
+}
+.risk-header {
   text-align: center;
 }
 
@@ -255,7 +257,9 @@
   .header {
     font-size: 14px;
   }
-
+  .hero-container-childbox {
+    flex-direction: column;
+  }
   .insurance-type__grid {
     grid-template-columns: 1fr;
     gap: 36px;
@@ -317,4 +321,64 @@
     align-items: center;
     gap: 0.5rem;
   }
+}
+
+/*hero-section*/
+.hero-header {
+  max-width: 100vw;
+  padding-top: 1.5rem;
+}
+.hero-header-container {
+  max-width: 82.5rem;
+
+  padding-inline: 0.75rem;
+  margin: auto;
+}
+.hero-grid-cont {
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.a-fb {
+  padding-right: 0.92rem;
+}
+.hero-grid-item2 {
+  justify-self: end;
+}
+.hero-container {
+  max-width: 100vw;
+}
+.hero-container-childbox {
+  padding-top: 3rem;
+  margin: auto;
+  display: flex;
+}
+.childbox-div1 {
+  flex: 1;
+  padding-inline: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+.childbox-div1-container {
+  width: 100%;
+}
+
+.hero-p {
+  font-family: var(--font-size-base);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 1rem;
+}
+
+.childbox-div2 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.childbox-div2 img {
+  max-width: 100%;
 }
