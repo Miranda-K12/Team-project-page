@@ -11,6 +11,15 @@
       integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
@@ -521,6 +530,124 @@
           </div>
         </div>
       </section>
+      <section class="blog-section section">
+        <div class="section-title-wrapper">
+          <h2 class="section-title">ბლოგი</h2>
+          <div class="swiper-buttons">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__image">
+                  <img src="./images/blog1.jpg" alt="sea-image" />
+                </div>
+
+                <div class="card__section">
+                  <p class="card__title">მოგზაურობა</p>
+                </div>
+
+                <div class="card__text">
+                  <h3 class="card__heading">სად და როგორ დავისვენოთ?</h3>
+                  <div class="card__date-info">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>15 მაისი, 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__image">
+                  <img src="./images/blog2.png" alt="sea-image" />
+                </div>
+
+                <div class="card__section">
+                  <p class="card__title">გართობა</p>
+                </div>
+
+                <div class="card__text">
+                  <h3 class="card__heading">
+                    მთაში თუ ზღვაზე წასაბარგებელი აუცილებელი ნივთები
+                  </h3>
+                  <div class="card__date-info">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>15 აგვისტო, 2020</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__image">
+                  <img src="./images/blog3.jpg" alt="airplane" />
+                </div>
+
+                <div class="card__section">
+                  <p class="card__title">უსაფრთხოება</p>
+                </div>
+
+                <div class="card__text">
+                  <h3 class="card__heading">
+                    მოგზაურობა COVID-19-ის დროს: ის, რაც ყველა მოგზაურმა უნდა
+                    იცოდეს
+                  </h3>
+                  <div class="card__date-info">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>15 ოქტომბერი, 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__image">
+                  <img src="./images/blog4.png" alt="airplane" />
+                </div>
+
+                <div class="card__section">
+                  <p class="card__title">მოგზაურობა</p>
+                </div>
+
+                <div class="card__text">
+                  <h3 class="card__heading">
+                    თუ მოგზაურობა გადაწყვიტე: ბლოგი მოგზაურობა-გადაჩვეულთათვის
+                  </h3>
+                  <div class="card__date-info">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>15 სექტემბერი, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card__image">
+                  <img src="./images/blog5.jpg" alt="Blog 1" />
+                </div>
+
+                <div class="card__section">
+                  <p class="card__title">მოგზაურობა</p>
+                </div>
+
+                <div class="card__text">
+                  <h3 class="card__heading">
+                    აპლიკაციები, რომლებიც მოგზაურობას გაგიმარტივებს
+                  </h3>
+                  <div class="card__date-info">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <p>15 ივნისი, 2022</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
@@ -536,5 +663,7 @@
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
