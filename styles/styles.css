@@ -553,3 +553,73 @@
 .card__date-info p {
   font-size: var(--font-size-subheader);
 }
+
+/*franchise-section */
+.franchise-section {
+  display: grid;
+  background-color: var(--color-hover-accordion);
+  padding-top: 128px;
+  padding-bottom: 80px;
+}
+.franchise-list {
+  max-width: 1296px;
+  width: 96%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 33px;
+  background-image: url(../images/world.svg);
+  background-repeat: no-repeat;
+}
+.franchise-box {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  cursor: pointer;
+}
+.franchise-box-first {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+.franchise-box-first-header {
+  font-size: 28px;
+  font-weight: 600;
+}
+.franchise-box-first p {
+  color: #666;
+}
+.franchise-detail-box {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  border-radius: 20px;
+  background-color: var(--color-white);
+  text-align: center;
+}
+.franchise-detail-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.4px;
+  margin-bottom: 1.5rem;
+  color: var(--color-heading);
+}
+.franchise-detail-box p {
+  width: 66%;
+}
+
+@media (max-width: 768px) {
+  .franchise-list {
+    grid-template-columns: 1fr;
+  }
+  .franchise-box-first {
+    align-items: center;
+  }
+  .franchise-box-first p {
+    width: 66%;
+    text-align: center;
+    padding-bottom: 112px;
+  }
+}
