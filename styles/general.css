@@ -3,31 +3,32 @@
 :root {
   --color-primary: #00b05b;
   --color-primary-dark: #036e3b;
+  --color-third: #2e7d45;
   --color-heading-background: rgb(0 176 91 / 20%);
   --color-white: #ffffff;
-  --color-black: #000000;
+
   --color-grey-dark: #575757;
   --color-grey-text: #666666;
   --color-border: #d7d7d7;
+  --color-border-secondary: #eaeaea;
   --color-background-card: #f4fafd;
-  --color-heading: #212529;
+  --color-light: #d6d6d6;
   --color-hover-accordion: #f5f5f5;
   --color-accordion-background: #d7f0df;
   --color-hover-accordion-header: #b7e3c5;
+  --color-light-green: #dae9e2;
   --color-active-accordion-header: #086e3c;
   --gradient-header: linear-gradient(#006c41, #00bc70);
   --font-family-base: "Roboto", Arial, Helvetica, sans-serif;
-  --font-size-subheader: 0.75rem;
-  --font-size-base: 1rem;
-  --font-size-header: 1.75rem;
-  --font-size-paragraph: 0.938rem;
-  --line-height-base: 1.3rem;
-  --padding-subheader: 0.5rem;
-  --padding-button-sm: 0.65rem;
-  --padding-button-lg: 1.9rem;
-  --radius-xs: 0.4375rem;
-  --radius-md: 1rem;
-  --radius-lg: 1.25rem;
+  --font-size-subheader: 12px;
+  --font-size-base: 16px;
+  --font-size-header: 28px;
+  --line-height-base: 20px;
+  --padding-button-sm: 10px;
+  --padding-button-lg: 30px;
+  --radius-xs: 7px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
 }
 
 * {
@@ -37,12 +38,13 @@
 }
 
 body {
-  width: 100%;
   font-family: var(--font-family-base);
 }
 
 .main-wrapper {
+  max-width: 1440px;
   width: 100%;
+  margin: 0 auto;
 }
 .title__highlight {
   background-image: var(--gradient-header);
@@ -54,10 +56,7 @@ body {
   font-size: var(--font-size-header);
   font-weight: 600;
   letter-spacing: 2px;
-  border-bottom: 1px solid var(--color-border);
   padding-bottom: 24px;
-  text-align: center;
-  width: 80%;
 }
 .insurance-type__card {
   padding: 73px 33px 33px 73px;

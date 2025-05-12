@@ -2,6 +2,8 @@ const swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   spaceBetween: 20,
   loop: false,
+  simulateTouch: false,
+  allowTouchMove: false,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -16,6 +18,9 @@ const swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
     },
     768: {
+      slidesPerView: 1,
+    },
+    480: {
       slidesPerView: 1,
     },
   },

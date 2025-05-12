@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
   <body>
     <header class="header">
@@ -50,15 +51,21 @@
                 <img src="./images/logo.svg" alt="logo" />
               </div>
               <div class="hero-grid-item2">
-                <a
-                  href="https://www.facebook.com/aldagi"
-                  target="_blank"
-                  class="a-fb"
-                  ><img src="./images/fb.svg" alt="fb"
-                /></a>
-                <a href="tel:+995-322-444-999"
-                  ><img src="./images/phone.svg" alt="phone" />
-                </a>
+                <div class="facebook-link">
+                  <a
+                    href="https://www.facebook.com/aldagi"
+                    target="_blank"
+                    class="a-fb"
+                  >
+                    <img src="./images/fb.svg" alt="fb" />
+                  </a>
+                </div>
+
+                <div class="phone-link">
+                  <a href="tel:+995-322-444-999" class="phone">
+                    <img src="./images/phone.svg" alt="phone" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -68,11 +75,11 @@
             <div class="childbox-div1">
               <div class="childbox-div1-container">
                 <span class="sub-header">სამოგზაურო დაზღვევა</span>
-                <h2 class="section-title">
+                <h1 class="section-title hero-title">
                   რა არის
                   <span class="title__highlight">სამოგზაურო დაზღვევა</span> და
                   რა შემთხვევაში იყენებ მას?
-                </h2>
+                </h1>
                 <p class="hero-p">
                   სამოგზაურო დაზღვევა საზღვარგარეთ მოგზაურობის პერიოდში
                   აგინაზღაურებს ჯანმრთელობის გაუარესებასთან დაკავშირებულ
@@ -162,10 +169,35 @@
           </div>
         </div>
       </section>
-
-
+      <section class="franchise-section">
+        <div class="franchise-list">
+          <div class="franchise-box franchise-box-first">
+            <h3 class="sub-header">ანაზღაურების ლიმიტი</h3>
+            <h2 class="franchise-box-first-header">ფრანშიზა</h2>
+            <p>
+              სამოგზაურო დაზღვევის შეძენა შეგიძლია ფრანშიზით ან ფრანშიზის გარეშე
+            </p>
+          </div>
+          <div class="franchise-box franchise-detail-box">
+            <h3>ფრანშიზით</h3>
+            <p>
+              სადაზღვევო შემთხვევის დადგომისას, ფრანშიზით გათვალისწინებულ თანხის
+              მინიმუმს შენ გადაიხდი, ხოლო დანარჩენ თანხას ალდაგი სრულად
+              აგინაზღაურებს
+            </p>
+          </div>
+          <div class="franchise-box franchise-detail-box">
+            <h3>ფრანშიზის გარეშე</h3>
+            <p>
+              სადაზღვევო შემთხვევის დადგომისას, ჯანმრთელობის მდგომარებასთან
+              დაკავშირებული ხარჯები სრულად აგინაზღაურდება დაზღვევის ლიმიტის
+              ფარგლებში
+            </p>
+          </div>
+        </div>
+      </section>
       <!-- Additional Coverages Section -->
-      <section class="additional_coverages_section">
+      <section class="additional_coverages_section section">
         <h2 class="section_header">დამატებითი დაფარვები</h2>
 
         <div class="additional_coverages_section_inner_div">
@@ -266,35 +298,6 @@
       </section>
 
       <!-- Risks Section -->
-
-      <section class="franchise-section">
-        <div class="franchise-list">
-          <div class="franchise-box franchise-box-first">
-            <h3 class="sub-header">ანაზღაურების ლიმიტი</h3>
-            <h2 class="franchise-box-first-header">ფრანშიზა</h2>
-            <p>
-              სამოგზაურო დაზღვევის შეძენა შეგიძლია ფრანშიზით ან ფრანშიზის გარეშე
-            </p>
-          </div>
-          <div class="franchise-box franchise-detail-box">
-            <h3>ფრანშიზით</h3>
-            <p>
-              სადაზღვევო შემთხვევის დადგომისას, ფრანშიზით გათვალისწინებულ თანხის
-              მინიმუმს შენ გადაიხდი, ხოლო დანარჩენ თანხას ალდაგი სრულად
-              აგინაზღაურებს
-            </p>
-          </div>
-          <div class="franchise-box franchise-detail-box">
-            <h3>ფრანშიზის გარეშე</h3>
-            <p>
-              სადაზღვევო შემთხვევის დადგომისას, ჯანმრთელობის მდგომარებასთან
-              დაკავშირებული ხარჯები სრულად აგინაზღაურდება დაზღვევის ლიმიტის
-              ფარგლებში
-            </p>
-          </div>
-        </div>
-      </section>
-
 
       <section class="risks_section section">
         <h3 class="sub-header risk-header">რისკები</h3>
@@ -665,18 +668,21 @@
           </div>
         </div>
       </section>
-<<<<<<< HEAD
+
       <!--questions-section-->
-      <section class="questions-section">
+      <section class="questions-section section">
         <div class="questions-container">
           <h2 class="questions-title">ხშირად დასმული შეკითხვები</h2>
           <div class="questions-grid-container">
             <div class="questions-grid-div item1">
               <h3 class="grid-item-title title1">
-                რა ღირს სამოგზაურო <br> დაზღვევა?
+                რა ღირს სამოგზაურო <br />
+                დაზღვევა?
               </h3>
               <p class="grid-item-text">
                 სამოგზაურო დაზღვევის ფასი დღეში 1 ლარია.
+              </p>
+              <p class="grid-item-text">
                 უფრანშიზო დაზღვევის და კოვიდ დაფარვის შემთხვევაში ფასის
                 კალკულაცია შეძენისას შეგიძლია.
               </p>
@@ -702,11 +708,13 @@
                 ძალაში შესული არ არის..
               </p>
             </div>
-            <div class="faq-image "> <img src="./images/faq.svg" alt="faq-img">
+            <div class="faq-image">
+              <img src="./images/faq.svg" alt="faq-img" />
+            </div>
           </div>
-          </div>
-=======
-      <section class="blog-section section">
+        </div>
+      </section>
+      <section class="blog-section">
         <div class="section-title-wrapper">
           <h2 class="section-title">ბლოგი</h2>
           <div class="swiper-buttons">
@@ -821,7 +829,6 @@
                 </div>
               </div>
             </div>
->>>>>>> 39ee97703601bca3b390fdf6bba435cd6dc2d6e8
           </div>
         </div>
       </section>

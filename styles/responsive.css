@@ -1,0 +1,219 @@
+@media (max-width: 1024px) {
+  .section,
+  .franchise-list,
+  .blog-section {
+    width: 91%;
+  }
+  .button-purchase {
+    margin-top: 24px;
+    position: static;
+  }
+  .additional_coverages_each_block {
+    column-gap: 1.2rem;
+    padding-right: auto;
+  }
+  .footer {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 14px;
+  }
+
+  .hero-header-container {
+    padding: 0 36px;
+  }
+  .hero-container-childbox {
+    width: 100%;
+  }
+  .insurance-type__grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .insurance-type__card {
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .insurance-covid__title {
+    margin: 0 auto;
+  }
+  .button-purchase {
+    position: static;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 36px;
+  }
+  .insurance-covid__title {
+    max-width: 100%;
+  }
+  .insurance-covid__description {
+    width: 60%;
+  }
+  .additional_coverages_heading_div h5 {
+    font-size: var(--font-size-paragraph);
+  }
+
+  .additional_coverages_each_block {
+    margin: 0.5rem 0;
+    padding: 1.5rem 0 1.5rem 12%;
+    column-gap: 2rem;
+    border: 1px solid var(--color-border-secondary);
+    border-radius: 1.25rem;
+  }
+  .additional_coverages_each_block {
+    margin: 1.125rem 0 1.125rem 1.875rem;
+    column-gap: 1rem;
+  }
+
+  .additional_coverages_blocks_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    border: none;
+  }
+
+  .section,
+  .blog-section {
+    padding: 0 36px;
+  }
+
+  .mid_border {
+    display: none;
+  }
+  .franchise-list {
+    grid-template-columns: 1fr;
+  }
+  .franchise-box-first {
+    align-items: center;
+  }
+  .franchise-box-first p {
+    width: 66%;
+    text-align: center;
+    padding-bottom: 112px;
+  }
+  .franchise-detail-box p {
+    width: 33%;
+  }
+  .questions-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-image: url("/images/background.png");
+  }
+  .questions-grid-container {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+  .questions-grid-div {
+    border-radius: 20px;
+  }
+
+  .faq-image {
+    grid-column: auto;
+    grid-row: auto;
+    order: -1;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .risks_section {
+    padding: 6rem 0 8rem 0;
+  }
+}
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 21px;
+  }
+  .header {
+    font-size: 10.4px;
+  }
+  .header__title {
+    margin-right: 0.5rem;
+  }
+
+  .section,
+  .blog-section,
+  .hero-header-container {
+    padding: 0 12px;
+  }
+  .hero-header {
+    background-color: var(--color-light-green);
+    margin-top: -16px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .hero-grid-item1 {
+    width: 93px;
+  }
+  .hero-grid-item1 img {
+    width: 100%;
+  }
+  .hero-grid-item2 {
+    width: 143px;
+    gap: 0;
+  }
+  .a-fb {
+    width: 27px;
+    display: inline-block;
+  }
+
+  .a-fb img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .phone {
+    width: 108px;
+    display: inline-block;
+  }
+
+  .phone img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .hero-container-childbox {
+    flex-direction: column;
+  }
+
+  .additional_coverages_each_block {
+    padding: 1.5rem 0 1.5rem 8%;
+    column-gap: 2rem;
+  }
+  .image-card {
+    order: 3;
+  }
+  .single-insurance-card {
+    order: 1;
+  }
+  .multi-insurance-card {
+    order: 2;
+  }
+  .blog-section {
+    margin-top: 48px;
+  }
+  .footer {
+    margin-top: 48px;
+  }
+
+  .header {
+    font-size: 10.4px;
+  }
+  .header__title {
+    margin-right: 0.5rem;
+  }
+
+  .footer__logo {
+    max-width: 150px;
+    width: 80%;
+    height: 34px;
+  }
+  .risks_section {
+    padding: 6rem 0 8rem 0;
+  }
+}
