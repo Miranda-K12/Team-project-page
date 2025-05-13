@@ -144,10 +144,17 @@
     background-color: var(--color-light-green);
     margin-top: -16px;
     border-radius: 20px 20px 0 0;
+    padding: 27px 0;
+    margin-bottom: 48px;
+  }
+  .hero-grid-cont {
+    margin-bottom: 0;
+    height: 27px;
   }
 
   .hero-grid-item1 {
     width: 93px;
+    height: 26px;
   }
   .hero-grid-item1 img {
     width: 100%;
@@ -158,6 +165,7 @@
   }
   .a-fb {
     width: 27px;
+    height: 27px;
     display: inline-block;
   }
 
@@ -197,23 +205,15 @@
   .blog-section {
     margin-top: 48px;
   }
+  .questions-section {
+    padding: 48px 0;
+  }
   .footer {
     margin-top: 48px;
   }
-
-  .header {
-    font-size: 10.4px;
-  }
-  .header__title {
-    margin-right: 0.5rem;
-  }
-
   .footer__logo {
     max-width: 150px;
     width: 80%;
     height: 34px;
-  }
-  .risks_section {
-    padding: 6rem 0 8rem 0;
   }
 }
